@@ -12,6 +12,24 @@
 3. Both push and present method are supported.
 4. Live photo image supported.
 
+## Screenshots
+
+<p align="center">
+<img width="200" src="screenshots/demo1.png"
+<br/>
+demo1
+</p>
+<p align="center">
+<img width="200" src="screenshots/demo2.png"
+<br/>
+demo2
+</p>
+<p align="center">
+<img width="200" src="screenshots/demo3.png"
+<br/>
+demo3
+</p>
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
