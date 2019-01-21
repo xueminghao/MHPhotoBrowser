@@ -62,11 +62,11 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7009CC9F3E9DD5285567808 /* Pods-MHPhotoBrowser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHPhotoBrowser_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MHPhotoBrowser_Tests/Pods-MHPhotoBrowser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D3723B1B9C8DFCCFB170927E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D3723B1B9C8DFCCFB170927E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E3736B8B2893DCDE411C7DB9 /* Pods-MHPhotoBrowser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHPhotoBrowser_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MHPhotoBrowser_Tests/Pods-MHPhotoBrowser_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E63196F02174A66105E8D25D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E63196F02174A66105E8D25D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F01552F59767AA3382132D04 /* Pods-MHPhotoBrowser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHPhotoBrowser_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MHPhotoBrowser_Example/Pods-MHPhotoBrowser_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F7664CD0D2767178162AA241 /* MHPhotoBrowser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MHPhotoBrowser.podspec; path = ../MHPhotoBrowser.podspec; sourceTree = "<group>"; };
+		F7664CD0D2767178162AA241 /* MHPhotoBrowser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MHPhotoBrowser.podspec; path = ../MHPhotoBrowser.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -348,12 +348,22 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MHPhotoBrowser_Example/Pods-MHPhotoBrowser_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MHPhotoBrowser/MHPhotoBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
+				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYWebImage/YYWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MHPhotoBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

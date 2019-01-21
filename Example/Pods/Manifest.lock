@@ -1,0 +1,41 @@
+PODS:
+  - Masonry (1.1.0)
+  - MHPhotoBrowser (0.1.0):
+    - Masonry
+    - ReactiveObjC (~> 3.1.0)
+    - YYWebImage
+  - ReactiveObjC (3.1.0)
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+
+DEPENDENCIES:
+  - MHPhotoBrowser (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - ReactiveObjC
+    - YYCache
+    - YYImage
+    - YYWebImage
+
+EXTERNAL SOURCES:
+  MHPhotoBrowser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MHPhotoBrowser: 36b8c86bee06c9e299e94c07c3d3424f95ffc135
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+
+PODFILE CHECKSUM: 42283fa0729c26fb83872fdc9d7155e5e509ff4a
+
+COCOAPODS: 1.5.3

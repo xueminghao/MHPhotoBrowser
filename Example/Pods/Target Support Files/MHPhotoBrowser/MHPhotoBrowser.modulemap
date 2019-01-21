@@ -1,0 +1,6 @@
+framework module MHPhotoBrowser {
+  umbrella header "MHPhotoBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}

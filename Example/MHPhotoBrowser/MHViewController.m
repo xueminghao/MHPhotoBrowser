@@ -8,6 +8,8 @@
 
 #import "MHViewController.h"
 
+#import <MHPhotoBrowser/MHPhotoBrowser.h>
+
 @interface MHViewController ()
 
 @end
@@ -20,10 +22,15 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)pushBtnClicked:(id)sender {
+    MHPhotoBrowserVC *vc = [MHPhotoBrowserVC new];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (IBAction)presentBtnClicked:(id)sender {
+    MHPhotoBrowserVC *vc = [MHPhotoBrowserVC new];
+    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:vc];
+    [self presentViewController:navi animated:YES completion:nil];
 }
 
 @end

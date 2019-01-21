@@ -1,0 +1,38 @@
+{
+  "name": "MHPhotoBrowser",
+  "version": "0.1.0",
+  "summary": "A short description of MHPhotoBrowser.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/薛明浩/MHPhotoBrowser",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "薛明浩": "xue_minghao@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/薛明浩/MHPhotoBrowser.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MHPhotoBrowser/Classes/**/*",
+  "resource_bundles": {
+    "MHPhotoBrowser": [
+      "MHPhotoBrowser/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "ReactiveObjC": [
+      "~> 3.1.0"
+    ],
+    "Masonry": [
+
+    ],
+    "YYWebImage": [
+
+    ]
+  }
+}
