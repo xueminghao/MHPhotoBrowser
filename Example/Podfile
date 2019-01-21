@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'MHPhotoBrowser_Example' do
+  pod 'MHPhotoBrowser', :path => '../'
+
+  target 'MHPhotoBrowser_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
